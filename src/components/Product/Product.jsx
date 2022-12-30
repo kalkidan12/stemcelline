@@ -6,7 +6,7 @@ const Product = () => {
 	return (
 		<div className="container my-20 px-6 mx-auto">
 			<section className="mb-32 text-gray-800 text-center">
-				<h2 className="flex justify-center text-center text-lime-500 mb-12">
+				<h2 className="flex justify-center text-center text-lime-500 mb-12 animate-bounce">
 					<BiDownArrowCircle size={100} />
 				</h2>
 

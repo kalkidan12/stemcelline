@@ -12,9 +12,9 @@ const Product = () => {
 
 				<div className="grid md:grid-cols-2 gap-x-6 lg:gap-x-12">
 					<div className="flex justify-center">
-						<div className="flex flex-col md:flex-row md:max-w-xl rounded-lg bg-white shadow-lg">
+						<div className="flex flex-col lg:flex-row lg:max-w-xl rounded-lg bg-white shadow-lg">
 							<img
-								className=" w-full h-96 md:h-auto object-cover md:w-48 rounded-t-lg md:rounded-none md:rounded-l-lg"
+								className="sm:mx-auto md:mx-auto w-full h-96 md:h-auto object-cover md:w-48 rounded-t-lg md:rounded-none md:rounded-l-lg"
 								src={prodImage}
 								alt=""
 							/>
@@ -34,9 +34,9 @@ const Product = () => {
 						</div>
 					</div>
 					<div className="flex justify-center">
-						<div className="flex flex-col md:flex-row md:max-w-xl rounded-lg bg-white shadow-lg">
+						<div className="flex flex-col lg:flex-row lg:max-w-xl rounded-lg bg-white shadow-lg">
 							<img
-								className=" w-full h-96 md:h-auto object-cover md:w-48 rounded-t-lg md:rounded-none md:rounded-l-lg"
+								className="sm:mx-auto md:mx-auto w-full h-96 md:h-auto object-cover md:w-48 rounded-t-lg md:rounded-none md:rounded-l-lg"
 								src={prodImage}
 								alt=""
 							/>

@@ -5,10 +5,10 @@ const Profile = () => {
 		<div className="container my-24 px-6 mx-auto">
 			<section className="mb-32 text-center">
 				<div className="grid md:grid-cols-2">
-					<div className="mb-12 ml-10 md:mb-0">
+					<div className="mb-12 sm:mx-auto lg:ml-10 md:mb-0">
 						<img src={drImage} class="object-fill rounded-lg" />
 					</div>
-					<div className="mb-12 md:mb-0">
+					<div className="sm:ml-5 mb-12 md:mb-0">
 						<h3 className="text-left text-xl pt-4">
 							Our stem cell vials are made from the highest quality materials
 							and are backed by our money-back guarantee. We guarantee that our

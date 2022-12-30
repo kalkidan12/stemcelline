@@ -8,7 +8,7 @@ const Footer = () => {
 				<div className="flex justify-center sm:mb-4 map-container-2 w-full mx-auto">
 					<iframe
 						src="https://maps.google.com/maps?q=manhatan&t=&z=13&ie=UTF8&iwloc=&output=embed"
-						className="left-0 top-0 h-full w-full rounded-t-lg lg:rounded-tr-none lg:rounded-bl-lg"
+						className="left-0 top-0 h-full w-96 rounded-t-lg lg:rounded-tr-none lg:rounded-bl-lg"
 						frameborder="0"
 						allowfullscreen
 					></iframe>

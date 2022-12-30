@@ -1,0 +1,44 @@
+* {
+	font-family: "Nunito Sans";
+}
+body {
+	background-color: #f2f2f2;
+}
+.card {
+	background-color: #fff;
+	transition: box-shadow 0.3s ease-in-out;
+}
+.card:hover {
+	box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+}
+h1 {
+	text-align: center;
+	font-size: 26px;
+	padding-top: 10px;
+	color: #576574;
+}
+hr {
+	width: 20%;
+	display: block;
+	margin: 0 auto;
+	height: 1px;
+	background: #000;
+}
+p.text-base {
+	padding-top: 15px;
+	text-align: center;
+	padding-bottom: 15px;
+	color: #8395a7;
+}
+.fa {
+	font-size: 36px;
+	text-align: center;
+	margin: 0 auto;
+	display: block;
+	color: #576574;
+}
+@media (max-width: 430px) {
+	.card {
+		margin: 10px;
+	}
+}
